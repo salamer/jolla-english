@@ -1,4 +1,4 @@
-quick start:
+#Quick start:
 
 first of all,you can create a file called `app.py` 
 
@@ -445,7 +445,7 @@ X-Powered-By: PHP 5.4.28
 ok,we can see,the header has already been added.
 
 ******
-#session
+#Session
 
 At this time,we wanna to have our data from client end too exist long,so it's time for us to have `session`,but here,I recommand you to use such as `redis` to be your session choice.`jolla` has its own session module,and it contain `empty`,`session_count`,`add_value`,`check_value`,`del_value`,`get_value` these API for you to use.
 
@@ -500,7 +500,7 @@ if __name__ == "__main__":
 like this, our jolla application is running on `xx.xx.xx.xx:80`
 
 ******
-#multi process
+#Multi process
 
 Now,it is all the multi core CPU,so if you can not make full use of multi core cpu,you can not get the best power you want.`jolla` add the multi process function to support that.
 
